@@ -82,7 +82,7 @@ function Register() {
   return (
     <div className="bg-gradient-to-b from-gray-500 to-white fixed inset-0 flex items-center justify-center z-50">
       <div className="bg-gray-200 p-6 rounded-lg shadow-lg w-[30rem] min-h-[25rem]">
-        <h2 className="text-4xl font-serif text-center mb-4">Welcome Back</h2>
+        <h2 className="text-4xl font-serif text-center mb-4">Sign Up</h2>
         <form className="space-y-4" onSubmit={handleSignup}>
           <div>
             <label htmlFor="name" className="block text-sm font-serif">
