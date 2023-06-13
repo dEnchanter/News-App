@@ -65,11 +65,7 @@ function HomePage() {
       setLoading(false);
     }
   };
-
-  const handleCloseModal = () => {
-    onClose();
-  }
-
+  
   return (
     <div className="bg-gradient-to-b from-gray-500 to-white fixed inset-0 flex items-center justify-center z-50">
       <div className="bg-gray-200 p-6 rounded-lg shadow-lg w-[30rem] min-h-[20rem]">
@@ -105,14 +101,6 @@ function HomePage() {
             label="Sign In"
             loading={loading} 
           />    
-          
-          {/* <button
-            type="button"
-            onClick={handleCloseModal}
-            className="w-full bg-gray-500 text-white rounded px-4 py-3"
-          >
-            Close
-          </button> */}
         </form>
         <p className="mt-4 px-3 text-center font-normal">Dont have an account? <Link href="/register" className="underline font-bold">Create account</Link></p>
       </div>
