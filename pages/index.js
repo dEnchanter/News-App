@@ -114,7 +114,7 @@ function HomePage() {
             Close
           </button> */}
         </form>
-        <p className="mt-4 px-3 text-center font-normal">Don't have an account? <Link href="/register" className="underline font-bold">Create account</Link></p>
+        <p className="mt-4 px-3 text-center font-normal">Dont have an account? <Link href="/register" className="underline font-bold">Create account</Link></p>
       </div>
     </div>
   )

@@ -31,7 +31,7 @@ export function Bars3Icon({ h = "w-6" }) {
 }
 
 
-export function CheckIcon({ h = "h-6", strokeWidth = 2 }) {
+export function CheckIcon({ h = "h-6" }) {
   return (
     <svg
       className={`${h} inline`}
@@ -43,7 +43,6 @@ export function CheckIcon({ h = "h-6", strokeWidth = 2 }) {
       <path
         strokeLinecap="round"
         strokeLinejoin="round"
-        strokeWidth={strokeWidth}
         d="M5 13l4 4L19 7"
       />
     </svg>
@@ -64,7 +63,7 @@ export function ChevronUpDownIcon({ h = "h-6" }) {
   )
 }
 
-export function ChevronDownIcon({ h = "h-6", strokeWidth }) {
+export function ChevronDownIcon({ h = "h-6" }) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
